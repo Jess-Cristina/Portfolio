@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bkg{
+    background-image: url("../IMG/kat.jpg");
+    background-size: 100vw auto;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.menu{
+    display: flex;
+    padding: 20px;
+    list-style: none;
+    position: fixed;       
+}
+.ps{
+    display: flex;
+    padding: 5px;
+    text-align: left; 
+    margin-left: 80vw;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+.item {
+    margin: 20px;
+}
+
+.txtbv{
+    font-weight: 100px;
+    font-size: 40px;
+    font-family: 'Lobster Two', cursive;
+    color: whitesmoke;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.699);
+    padding-top: 35vh;
+    padding-bottom: 35vh;
+    text-align-last: center;
+    display: block;
+    word-spacing: 5pt;
+    letter-spacing: 8px;
+}
+
+.apresent{
+    margin-top: 20vh;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.336);
+}
+
+.flecha{
+    color: whitesmoke;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.212);
+    height: 50px;
+}
+
+.linkst{
+    background-color: rgb(247, 198, 84);
+}
+
+.links1{
+    margin-top: 200px;
+    display: flex;
+    list-style: none;
+}
+
+.links2{
+    margin-left: 17.1vw;
+    margin-right: 17.1vw;
+    display: flex;
+    list-style: none;
+}
+
+.p1{
+
+    text-align: center;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+    background-image: url("../IMG/pizza.png");
+    background-color: rgb(255, 255, 255);
+    width: 32.9vw;
+    vertical-align: middle;
+    display: table-cell;
+    height: 50vh;    
+    padding-left: 10px;
+    padding-right: 10px;
+    background-size: 80px;
+    background-position-x: center;
+}
+
+.p2{
+    text-align: center;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+    background-image: url("../IMG/loteria.jfif");
+    background-color: rgb(255, 255, 255);
+    width: 32.9vw;
+    height: 50vh;
+    vertical-align: middle;
+    display: table-cell;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-size: 80px;
+    background-position-x: center;
+}
+
+.p3{
+    text-align: center;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+    background-image: url("../IMG/temperatura.png");
+    background-color: rgb(255, 255, 255);
+    width: 32.9vw;
+    height: 50vh;
+    vertical-align: middle;
+    display: table-cell;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-size: 80px;
+    background-position-x: center;
+}
+
+.p4{
+    text-align: center;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+    background-image: url("../IMG/estados.webp");
+    background-color: rgb(255, 255, 255);
+    width: 32.9vw;;
+    height: 50vh;
+    vertical-align: middle;
+    display: table-cell;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-size: 80px;
+    background-position-x: center;
+}
+
+.p5{
+    text-align: center;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+    background-image: url("../IMG/cadastro.webp");
+    background-color: rgb(255, 255, 255);
+    width: 32.92vw;
+    height: 50vh;
+    vertical-align: middle;
+    display: table-cell;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-size: 80px;
+    background-position-x: center;
+}
+
+.foot1{
+    background-color: rgba(250, 180, 20);
+    height: 100px;
+}
+
+.foot2{
+    text-align: center;
+    color: white;
+    background-color: rgb(177, 128, 15);
+    height: 20px;
+}
+
+.item a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.item a:visited {
+    color: rgb(255, 255, 255);
+}
+
+.item a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.item a:active {
+    color: rgb(255, 255, 255);
+}
+
+.flecha a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.flecha a:visited {
+    color: rgb(255, 255, 255);
+}
+
+.flecha a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.flecha a:active {
+    color: rgb(255, 255, 255);
+}
+
+.links1 a:link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.links1 a:visited {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.links1 a:hover {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+
+}
+
+.links1 a:active {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.links2 a:link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.links2 a:visited {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.links2 a:hover {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.links2 a:active {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+
+}
+
+mark{
+    color: rgb(255, 255, 255);
+    background-color: rgba(80, 58, 7, 0.5);
+}
+
+.js{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+.rs{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;
+}
+
+.itensrs{
+    color: white;
+    text-shadow: 2px 2px 2px rgb(248, 141, 0);
+    padding: 10px;
+}
+
+.rs a:link, a:visited{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.rs a:hover, a:active{
+    color: rgb(59, 46, 18);
+}
+
+/* Página Sobre */
+
+.bsobre{
+    background: -webkit-gradient(linear, left top, right top, from(#ffe989ee), to(#ffba39)) no-repeat;         
+}
+
+.msobre{
+   height: 100vh; 
+  
+}
+
+.eu{
+    width: 700px;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+.sobre{
+    padding-top: 100px;
+    padding-left: 20px;
+    display: flex;
+}
+
+.sb{
+   height: 404px;
+   margin-top: 60px;
+   padding: 40px;
+   background-color: rgba(0, 0, 0, 0.144);
+}
+
+.ts{
+    color: white;
+    text-shadow: 2px 2px 1px rgba(255, 174, 0, 0.781);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.txtsobre{
+    text-indent: 10px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 1px rgba(255, 174, 0, 0.781);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cur a:link{
+    text-transform: none;
+    color: white;
+}
+.cur a:visited{
+    color: white;   
+}
+
+.cur a:hover{
+    color: white;
+}
+
+.cur a:active{
+    color: white;
+}
+
+.prow a:link{
+    text-decoration: none;
+    color: black;
+
+}
+
+.prow a:visited{
+    color: black;
+}
+
+.prow a:hover{
+    color: black;
+}
+
+.prow a:active{
+   color: black;
+
+}
+
+.hb a:link{
+    text-decoration: none;
+    color:black;
+}
+
+.hb a:visited{
+    color:black;
+}
+.hb a:hover{
+    color: black;
+}
+
+.hb a:active{
+    color: black;
+}
+
